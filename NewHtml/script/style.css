@@ -21,6 +21,7 @@ a:visited{
 #wrap {	
 	min-height:100%;
 	position:relative;
+	overflow:hidden;
 }
 #header{
 	color:#fff;
