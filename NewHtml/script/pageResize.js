@@ -9,7 +9,7 @@
  function makeFooterAtBottom() {
 	$('#main').css('min-height', 0);
 	$('#main').css('min-height', (
-	$(document).height() - $('#footer').outerHeight(true) - 40
+	$(document).height() - $('#footer').outerHeight(true) - $('#header').outerHeight(true) -40
    ));
  }
 
