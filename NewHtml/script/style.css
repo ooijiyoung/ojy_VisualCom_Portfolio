@@ -21,7 +21,10 @@ a:visited{
 #wrap {	
 	min-height:100%;
 	position:relative;
-	overflow:hidden;
+	overflow-y: scroll;
+}
+::-webkit-scrollbar { 
+    display: none; 
 }
 #header{
 	color:#fff;
@@ -82,7 +85,6 @@ a:visited{
 #push{
 	transition: margin-left .5s;
 	width: 100%;
-	overflow: hidden;
 }
 #main{
 	color:#fff;
